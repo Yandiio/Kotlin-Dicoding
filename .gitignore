@@ -1,0 +1,4 @@
+# Project exclude paths
+/.gradle/
+/Data Class dan Collections/Collections/Collections/build/
+/Data Class dan Collections/Collections/Sets/build/
