@@ -4,9 +4,6 @@ fun main() {
     print(fullName)
 }
 
-fun getFullName(
-        first: String = "Kotlin",
-        middle: String = " is ",
-        last: String = "Awesome"): String {
-    return "$first $middle $last"
+fun getFullName(name: String = "Kotlin", fullName: String = "Kotlin bin Itlin"): String{
+    return "$name $fullName"
 }

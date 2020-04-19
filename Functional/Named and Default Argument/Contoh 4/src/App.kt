@@ -1,9 +1,8 @@
-// main function
 fun main() {
-    val fullName = getFullName(first = "Dicoding")
-    print(fullName)
+    val fishStats = getFishStats(name = "Mujair Slyphustia", length = 200L)
+    println(fishStats)
 }
 
-fun getFullName(first: String = "Kotlin", middle: String = " is ", last: String = "Awesome"): String {
-    return "$first $middle $last"
+fun getFishStats(name: String = "Cupangae Sycludsa", length: Long = 100L): Any {
+    return "$name $length"
 }

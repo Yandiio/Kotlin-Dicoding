@@ -1,9 +1,8 @@
 // main function
 fun main() {
-    sets(10, 10, name = "Kotlin")
+    println(sets(1,2,3,4,5,6, name = "name"))
 }
 
-fun sets(vararg number: Int, name: String): Int {
-    println(name)
-    return number.sum()
+fun sets(vararg Number: Int, name: String ): Any {
+    return "${Number.size} $name"
 }

@@ -1,3 +1,5 @@
+import java.lang.StringBuilder
+
 // main function
 fun main() {
     val message = buildString {
@@ -9,7 +11,7 @@ fun main() {
     println(message)
 }
 
-fun buildString(action: StringBuilder.() -> Unit): String {
+fun buildString( action: StringBuilder.() -> Unit): String {
     val stringBuilder = StringBuilder()
     stringBuilder.action()
     return stringBuilder.toString()

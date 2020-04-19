@@ -1,16 +1,18 @@
 fun main() {
-    val capital = mapOf(
-            "Jakarta" to "Indonesia",
-            "London" to "England",
-            "New Delhi" to "India"
-    )
+   val capital = mapOf(
+           "Jakarta" to "Indonesia",
+           "Kuala Lumpor" to "Malaysia",
+           "Bangkok" to "Thailand"
+   )
 
-    println(capital["Jakarta"])
-    println(capital.getValue("Jakarta"))
 
-    val mapKeys = capital.keys
-    val mapValues = capital.values
+    val mutableCapital = capital.toMutableMap()
+    mutableCapital.put("Berlin","Germany")
+    mutableCapital.put("Amsterdam","Holand")
 
+    val mapKeys = mutableCapital.keys
+    val mapValues = mutableCapital.values
+//
     println(mapKeys)
     println(mapValues)
 }

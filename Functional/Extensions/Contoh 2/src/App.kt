@@ -1,8 +1,8 @@
 // main function
 fun main() {
-    println(10.plusThree())
+    println(45.plusFive())
 }
 
-fun Int.plusThree(): Int {
-    return this + 3
+fun Int.plusFive() : Int {
+    return this + 5
 }

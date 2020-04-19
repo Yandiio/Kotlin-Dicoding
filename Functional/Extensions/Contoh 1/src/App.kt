@@ -1,8 +1,8 @@
 // main function
 fun main() {
-    10.printInt()
+    50.IntValue()
 }
 
-fun Int.printInt() {
-    print("value $this")
+fun Int.IntValue() {
+    print("value is $this")
 }

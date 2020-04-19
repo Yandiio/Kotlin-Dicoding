@@ -1,8 +1,14 @@
 fun main() {
-    val numbers = 1.rangeTo(10)
-    val evenNumbers = numbers.filter(Int::isEvenNumber)
+    val number = 1.rangeTo(100)
+    val evenNumber = number.filter(::isEvenNumber)
+    val oddNumber = number.filter(Int::isOddNumber)
 
-    println(evenNumbers)
+
+
+    println(evenNumber)
+    println(oddNumber)
 }
 
-fun Int.isEvenNumber() = this % 2 == 0
+fun isEvenNumber (Number: Int) = Number % 2 == 0
+
+fun Int.isOddNumber() = this % 2 == 1

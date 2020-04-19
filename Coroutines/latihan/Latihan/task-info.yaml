@@ -77,7 +77,7 @@ files:
   learner_created: false
 - name: test/output.txt
   visible: false
-  text: |-
+  text: |
     Counting...
     Result sum: 20
     Result multiple: 400

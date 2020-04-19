@@ -1,9 +1,10 @@
 // main function
 fun main() {
-    val kotlinChar = listOf('k', 'o', 't', 'l', 'i', 'n')
-    val ascendingSort = kotlinChar.sorted()
-    val descendingSort = kotlinChar.sortedDescending()
+   val mineChart = listOf('y','a','n','d','i')
 
-    println(ascendingSort)
-    println(descendingSort)
+   val ascendingList = mineChart.sorted()
+   val descendingList = mineChart.sortedDescending()
+
+   println(ascendingList)
+   println(descendingList)
 }

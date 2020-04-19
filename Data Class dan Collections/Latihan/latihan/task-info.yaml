@@ -20,11 +20,11 @@ files:
   learner_created: false
 - name: test/output.txt
   visible: false
-  text: |-
+  text: |
     Vehicle
     Type: Motorcycle
     Maximal Speed: 230Km/s
     Maximal Tank: 10Ltr
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

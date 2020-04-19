@@ -1,6 +1,6 @@
 val sum: (Int, Int) -> Int = { valueA, valueB -> valueA + valueB }
 
-val multiply: (Int, Int) -> Int = { valueA, valueB -> valueA * valueB }
+val multiply: (Int, Int ) -> Int = { valueA, valueB -> valueA * valueB }
 
 fun main() {
     val sumResult = sum.invoke(10, 10)

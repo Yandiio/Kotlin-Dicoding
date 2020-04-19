@@ -1,7 +1,6 @@
-// main function
 fun main() {
-    val length = messageLength("Hello From lambda")
-    println("Message length $length")
+    val messageLength = getMessageLength("My Message is prophet")
+    println("message length is $messageLength")
 }
 
-val messageLength = { message: String -> message.length }
+val getMessageLength = { message:String -> message.length}

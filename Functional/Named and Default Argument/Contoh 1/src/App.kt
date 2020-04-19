@@ -1,9 +1,9 @@
 // main function
 fun main() {
-    val fullName = getFullName(first = "Kotlin" , middle = " is ", last = "Awesome")
-    print(fullName)
+    val playerName = getPlayerName(name= "Michael Owen", club = "Manchester United", number = 10)
+    println(playerName)
 }
 
-fun getFullName(first: String, middle: String, last: String): String {
-    return "$first $middle $last"
+fun getPlayerName(name: String, number: Int, club: String){
+    println("$name $number $club")
 }

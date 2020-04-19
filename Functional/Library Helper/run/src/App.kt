@@ -1,10 +1,11 @@
 // main function
 fun main() {
-    val text = "Hello"
-    val result = text.run {
+    val text = "hello"
+    val runText = text.run {
         val from = this
-        val to = this.replace("Hello", "Kotlin")
-        "replace text from $from to $to"
+        val to = this.replace("hello", "Kaan")
+        "Value is $from to $to"
     }
-    println("result : $result")
+
+    println("Run : $runText")
 }

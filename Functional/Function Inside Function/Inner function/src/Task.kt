@@ -11,3 +11,7 @@ fun sum(valueA: Int, valueB: Int, valueC: Int): Int {
 
     return valueA + valueB
 }
+
+fun main () {
+    sum(10,20,30)
+}

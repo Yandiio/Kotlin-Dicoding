@@ -1,7 +1,7 @@
 // main function
 fun main() {
-    printResult(10){ value ->
-        value + value
+    printResult(10) {
+        value -> value + value
     }
 }
 

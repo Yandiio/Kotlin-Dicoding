@@ -1,10 +1,20 @@
 // main function
 fun main() {
-    val message = "Hello Kotlin!"
-    val result = with(message) {
-        "First character is ${this[0]}" +
-                " and last character is ${this[this.length - 1]}"
+    val message = "Hello Kotlin user"
+    val dataResult = with(message) {
+        println("Message is $this")
+        println("and the length is ${this.length}")
     }
 
-    println(result)
+    println(dataResult)
+    message()
+}
+
+
+fun message() {
+    val message = "Hello Kotlin!"
+    val messageValue = with(message) {
+        println("first character is ${this[0]}")
+        println("and the last character is ${this[this.length - 2]}")
+    }
 }
