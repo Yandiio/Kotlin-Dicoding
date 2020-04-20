@@ -1,19 +1,18 @@
-class Animal{
-    var name: String = "Dicoding Miaw"
-        get(){
-            println("Fungsi Getter terpanggil")
-            return field
-        }
-        set(value){
-            println("Fungsi Setter terpanggil")
-            field = value
-        }
+class Motor {
+    var name = "Ducati Panigale"
+    get() {
+        println("Get Data")
+        return field
+    }
+    set(value) {
+        println("Set Data")
+        field = value
+    }
 }
 
-// main function
-fun main(){
-    val dicodingCat = Animal()
-    println("Nama: ${dicodingCat.name}" )
-    dicodingCat.name = "Goose"
-    println("Nama: ${dicodingCat.name}")
+fun main () {
+    val motorcycleName = Motor()
+    println("${motorcycleName.name}")
+    motorcycleName.name = "Honda CBR100 RR"
+    println("${motorcycleName.name}")
 }

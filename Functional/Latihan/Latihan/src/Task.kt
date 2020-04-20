@@ -10,6 +10,7 @@ fun main() {
 }
 
 // TODO 1
-fun String.getFirstAndLast(): Map<String, Char>{
-    return mapOf()
-}
+fun String.getFirstAndLast() = mapOf<String, Char>(
+        "first" to this.first(),
+        "last" to this.last()
+)

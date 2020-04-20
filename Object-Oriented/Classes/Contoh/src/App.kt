@@ -1,21 +1,20 @@
-class Animal(val name: String,
-             val weight: Double,
-             val age: Int,
-             val isMammal: Boolean) {
+class car(val name: String,
+          val weight: String,
+          val long: Long,
+          val manufacturer: String) {
 
-    fun eat() {
-        println("$name makan!")
+    fun speed() {
+        println("$name ngebut")
     }
 
-    fun sleep() {
-        println("$name tidur!")
+    fun brake() {
+        println("$name ngerem")
     }
 }
 
-// main function
 fun main() {
-    val dicodingCat = Animal("Dicoding Miaw", 4.2, 2, true)
-    println("Nama: ${dicodingCat.name}, Berat: ${dicodingCat.weight}, Umur: ${dicodingCat.age}, mamalia: ${dicodingCat.isMammal}")
-    dicodingCat.eat()
-    dicodingCat.sleep()
+    val ferrariCar = car("Portofino",weight = "1260Kg", manufacturer = "Ferrari", long = 1000L)
+    println("Name Car : ${ferrariCar.name}, Manufacturer: ${ferrariCar.manufacturer} , Weight : ${ferrariCar.weight} , Long : ${ferrariCar.long}   ")
+    ferrariCar.brake()
+    ferrariCar.speed()
 }
